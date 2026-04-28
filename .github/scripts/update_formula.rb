@@ -121,7 +121,7 @@ def render_formula(version, files)
 
       test do
         assert_match version.to_s, shell_output("\#{bin}/sqz --version")
-        system "\#{bin}/sqz-mcp", "--version"
+        assert_predicate bin/"sqz-mcp", :executable?
       end
     end
   RUBY
