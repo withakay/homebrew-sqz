@@ -40,4 +40,3 @@ jobs:
             Automated update from the latest ojuschugh1/sqz GitHub release.
 
             This refreshes release URLs and SHA256 checksums for all supported Homebrew platforms.
-          labels: dependencies, automated
